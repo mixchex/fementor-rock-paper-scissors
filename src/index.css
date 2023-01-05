@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply flex-col items-stretch h-screen w-screen from-back-start to-back-end bg-gradient-radial-to-t bg-top;
+    }
+
+    svg text {
+      @apply font-sans;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+
+  
+
+  @keyframes disc-in {
+    0% {
+      transform: scale(0);
+      opacity:0
+    }
+    100% {
+      transform: scale(1);
+      opacity:1
+    }
+  }
+  .animate-disc-in {
+    animation: disc-in 1s ease-in-out both;
+  }
+}
+
+.discs .disc-1of3 {
+  @apply absolute top-0 left-0 -translate-x-1/4 md:-translate-x-1/2 -translate-y-1/2;
+}
+.discs .disc-2of3 {
+  @apply absolute top-0 right-0 translate-x-1/4 md:translate-x-1/2 -translate-y-1/2;
+}
+.discs .disc-3of3 {
+  @apply absolute bottom-0 left-1/2 -translate-x-1/2 md:translate-y-1/4;
+}
+
+
+
+.discs .disc-1of5 {
+  @apply absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2;
+}
+.discs .disc-2of5 {
+  @apply absolute -mt-2 left-0 top-1/4 -translate-x-1/2;
+}
+.discs .disc-3of5 {
+  @apply absolute -mt-2 right-0 top-1/4 translate-x-1/2;
+}
+.discs .disc-4of5 {
+  @apply absolute -ml-6 left-1/4 bottom-0 -translate-x-1/2 translate-y-1/2;
+}
+.discs .disc-5of5 {
+  @apply absolute -mr-6 right-1/4 bottom-0 translate-x-1/2 translate-y-1/2;
 }

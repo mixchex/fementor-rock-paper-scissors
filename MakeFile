@@ -1,4 +1,4 @@
 
 
-up
-	npm start
+up:
+    npm run start
