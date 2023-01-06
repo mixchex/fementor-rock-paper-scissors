@@ -27,8 +27,9 @@ Users should be able to:
 ### Screenshot
 ![](./screenshot.png)
 ### Links
-- Challenge URL: 
-- Solution URL: https://your-solution-url.com
+
+- Challenge URL: <https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH>
+- Solution URL: <https://mixchex.github.io/fementor-rock-paper-scissors/>
 ## My process
 I decided to focus on React JS as the JavaScript framework to further develop my skills as well as use Tailwind CSS which I enjoy using and developing with. I wanted to also include localStorage after using it recently.
 ### Built with
