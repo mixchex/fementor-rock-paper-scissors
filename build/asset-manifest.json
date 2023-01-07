@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mixchex/fementor-rock-paper-scissors/static/css/main.2364421e.css",
+    "main.js": "/mixchex/fementor-rock-paper-scissors/static/js/main.2d3f3c92.js",
+    "static/js/787.c8ffd4a8.chunk.js": "/mixchex/fementor-rock-paper-scissors/static/js/787.c8ffd4a8.chunk.js",
+    "index.html": "/mixchex/fementor-rock-paper-scissors/index.html",
+    "main.2364421e.css.map": "/mixchex/fementor-rock-paper-scissors/static/css/main.2364421e.css.map",
+    "main.2d3f3c92.js.map": "/mixchex/fementor-rock-paper-scissors/static/js/main.2d3f3c92.js.map",
+    "787.c8ffd4a8.chunk.js.map": "/mixchex/fementor-rock-paper-scissors/static/js/787.c8ffd4a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2364421e.css",
+    "static/js/main.2d3f3c92.js"
+  ]
+}
