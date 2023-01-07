@@ -6,7 +6,7 @@ const Header = ({
 }) => {
     return (
         <div className="flex justify-between items-center border border-outline p-4 rounded-lg sm:rounded-2xl">
-            {type == 'standard' ?
+            {type === 'standard' ?
                 <h1 className="text-body sm:text-4xl leading-[1rem] sm:leading-[2rem] block text-white uppercase w-96">
                     Rock<br />Paper<br />Scissors
                 </h1>

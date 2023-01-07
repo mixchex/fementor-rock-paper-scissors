@@ -12,6 +12,8 @@ module.exports = {
         'delay-100',
         'delay-200',
         'delay-300',
+        'delay-400',
+        'delay-500',
         'bg-rock-light',
         'bg-rock-dark',
         'bg-paper-light',
