@@ -2,7 +2,7 @@
   "name": "rock-paper-scissors",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mixchex/fementor-rock-paper-scissors/build",
+  "homepage": "https://mixchex.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^13.5.0",
@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "watch": "npx tailwindcss -i ./src/index.css -o ./src/App.css --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
