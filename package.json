@@ -2,7 +2,7 @@
   "name": "rock-paper-scissors",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mixchex/fementor-rock-paper-scissors",
+  "homepage": "https://mixchex.github.io/fementor-rock-paper-scissors/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^13.5.0",
