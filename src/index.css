@@ -29,6 +29,19 @@
   .animate-disc-in {
     animation: disc-in 1s ease-in-out both;
   }
+  @keyframes disc-out {
+    0% {
+      transform: scale(1);
+      opacity:1
+    }
+    100% {
+      transform: scale(0);
+      opacity:0
+    }
+  }
+  .animate-disc-out {
+    animation: disc-out 0.25s ease-in-out both;
+  }
 }
 
 .discs .disc-1of3 {
