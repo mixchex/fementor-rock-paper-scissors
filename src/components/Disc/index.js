@@ -53,7 +53,7 @@ const Disc = ({
                   : ""
               } flex items-stretch justify-self-stretch shadow-disc-${option}-sm md:shadow-disc-#{option}-md transition-all hover:rotate-12 hover:scale-110 ${!disabled && 'active:scale-95'}`}
             >
-              <div
+              <span
                 className={`bg-white w-full h-full flex items-center justify-center rounded-full p-7 ${
                   type == "standard" && "md:p-11"
                 } ${
@@ -65,7 +65,7 @@ const Disc = ({
                   alt={`${option}`}
                   className="w-full h-auto"
                 />
-              </div>
+              </span>
               <span className="sr-only">Play {option}</span>
             </button>
           </div>
