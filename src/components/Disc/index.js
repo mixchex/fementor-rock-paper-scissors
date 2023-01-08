@@ -62,7 +62,7 @@ const Disc = ({
               >
                 <img
                   src={`./images/icon-${option}.svg`}
-                  alt={`Play ${option}`}
+                  alt={`${option}`}
                   className="w-full h-auto"
                 />
               </div>
