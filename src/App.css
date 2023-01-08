@@ -771,6 +771,18 @@ svg text {
   width: 100vw;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
 .max-w-700 {
   max-width: 700px;
 }
@@ -1503,6 +1515,18 @@ svg text {
 
   .md\:w-49 {
     width: 12.25rem;
+  }
+
+  .md\:w-56 {
+    width: 14rem;
+  }
+
+  .md\:w-40 {
+    width: 10rem;
+  }
+
+  .md\:w-32 {
+    width: 8rem;
   }
 
   @-webkit-keyframes disc-winner-lg {

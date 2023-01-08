@@ -24,7 +24,7 @@ const Header = ({ score = 0, type = "standard" }) => {
           Spock
         </h1>
       )}
-      <div className="bg-white text-center p-3 sm:p-4 rounded sm:rounded-lg">
+      <div className="bg-white text-center p-3 w-20 md:w-32 sm:p-4 rounded sm:rounded-lg">
         <div className="text-xs sm:text-sm tracking-widest text-score uppercase">
           Score
         </div>
