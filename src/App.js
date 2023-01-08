@@ -36,6 +36,7 @@ function App() {
 
   const handleGameChange = (game) => {
     type != game && setType(game);
+    setReset(true);
   };
 
   const handleReset = () => {

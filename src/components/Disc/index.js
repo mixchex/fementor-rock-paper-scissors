@@ -51,7 +51,7 @@ const Disc = ({
                 size === "lg" && type == "standard"
                   ? "lg:w-74 lg:h-72 lg:p-8"
                   : ""
-              } flex items-stretch justify-self-stretch shadow-disc-${option}-sm md:shadow-disc-#{option}-md transition-all hover:rotate-12 hover:scale-110 active:scale-95`}
+              } flex items-stretch justify-self-stretch shadow-disc-${option}-sm md:shadow-disc-#{option}-md transition-all hover:rotate-12 hover:scale-110 ${!disabled && 'active:scale-95'}`}
             >
               <div
                 className={`bg-white w-full h-full flex items-center justify-center rounded-full p-7 ${
