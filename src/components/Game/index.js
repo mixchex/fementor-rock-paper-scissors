@@ -151,7 +151,7 @@ const Game = ({
             <div className="discs relative mx-auto flex flex-wrap justify-center items-center">
                 {options.map((option, i) => <Disc index={i+1} total={options.length} type={type} size="md" disabled={disabled} key={option} option={option} onClick={compete} />)}
                 
-                <img src={type == 'standard' ? '/images/bg-triangle.svg' : '/images/bg-pentagon.svg'}
+                <img src={type == 'standard' ? './images/bg-triangle.svg' : './images/bg-pentagon.svg'}
                     alt=""
                      />
             </div>

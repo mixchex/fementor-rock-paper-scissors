@@ -51,7 +51,7 @@ function App() {
         <Footer type={type} onGameChange={handleGameChange} onReset={handleReset} onShowRules={()=>setModalVisible(true)} />
         <Modal visible={modalVisible} onClose={()=>setModalVisible(false)} title="Rules">
           <img className="block w-full h-auto"
-            src={type == 'standard' ? '/images/image-rules.svg' : '/images/image-rules-bonus.svg'}
+            src={type == 'standard' ? './images/image-rules.svg' : './images/image-rules-bonus.svg'}
             alt={`Rules for Rock, Paper, Scissors${type != 'standard' && ', Lizard Spock'}`}
           />
         </Modal>

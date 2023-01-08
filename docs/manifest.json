@@ -3,7 +3,7 @@
   "name": "Rock Paper Scissors Challenge",
   "icons": [
     {
-      "src": "/images/favicon.ico",
+      "src": "./images/favicon.ico",
       "sizes": "32x32",
       "type": "image/x-icon"
     }

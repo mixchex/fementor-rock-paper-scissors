@@ -13,7 +13,7 @@ const Modal = ({
                 {children}
                 <div className="flex items-center">
                     <button onClick={onClose} title="Close" className="sm:absolute sm:top-9 sm:right-9 transition-all hover:scale-125">
-                        <img src="/images/icon-close.svg" alt="" />
+                        <img src="./images/icon-close.svg" alt="" />
                         <span className="sr-only">Close</span>
                     </button>
                 </div>
